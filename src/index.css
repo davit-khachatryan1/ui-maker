@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Space Grotesk", "Sora", sans-serif;
+    background: #f7f4ef;
+    color: #0f172a;
+  }
+
+  textarea,
+  input,
+  select,
+  button {
+    font-family: inherit;
+  }
+
+  .cm-editor {
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 0.85rem;
+  }
+}
