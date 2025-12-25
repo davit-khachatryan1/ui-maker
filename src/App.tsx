@@ -79,8 +79,8 @@ export default function App() {
   const [fixRoleImages, setFixRoleImages] = useState(true);
 
   const [useAiAssist, setUseAiAssist] = useState(false);
-  const [aiProvider, setAiProvider] = useState<AiProviderId>("ollama");
-  const [aiModel, setAiModel] = useState(DEFAULT_AI_MODELS.ollama);
+  const [aiProvider, setAiProvider] = useState<AiProviderId>("openai");
+  const [aiModel, setAiModel] = useState(DEFAULT_AI_MODELS.openai);
   const [aggressiveness, setAggressiveness] =
     useState<Aggressiveness>("balanced");
   const [aiError, setAiError] = useState<string | null>(null);
